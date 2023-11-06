@@ -102,6 +102,14 @@ namespace ProductsLesson
                         PropertyDefinition = propDefCountry,
                         Value = "USA",
                     },
+                    new PropertyValue // dodawanie nowej właściwości bez tworzenia jej wcześniej w bazie
+                    {
+                        PropertyDefinition = new()
+                        {
+                            Name = "Rodzaj klawiszy",
+                        },
+                        Value = "Mechaniczne",
+                    }
                 },
             };
 
